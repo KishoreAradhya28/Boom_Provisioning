@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_priority" table="x_1318369_boom_pro_boom_order">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Priority</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_priority</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_1318369_boom_pro_boom_order</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 09:43:33</sys_created_on>
+        <sys_id>ff840a8597818a10433db466f053afad</sys_id>
+        <sys_name>Priority</sys_name>
+        <sys_package display_value="Boom Provisioning" source="x_1318369_boom_pro">d8a30dbb97740610433db466f053af8a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Boom Provisioning">d8a30dbb97740610433db466f053af8a</sys_scope>
+        <sys_update_name>sys_dictionary_x_1318369_boom_pro_boom_order_u_priority</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 09:43:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Boom Provisioning">d8a30dbb97740610433db466f053af8a</application>
+        <file_path/>
+        <instance_id>ede1cd3adb4513cc3353f22ebf961917</instance_id>
+        <instance_name>dev54070</instance_name>
+        <name>sys_dictionary_x_1318369_boom_pro_boom_order_u_priority</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_priority" table="x_1318369_boom_pro_boom_order"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>Priority</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_priority</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1318369_boom_pro_boom_order</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-18 09:43:33</sys_created_on><sys_id>ff840a8597818a10433db466f053afad</sys_id><sys_name>Priority</sys_name><sys_package display_value="Boom Provisioning" source="x_1318369_boom_pro">d8a30dbb97740610433db466f053af8a</sys_package><sys_policy/><sys_scope display_value="Boom Provisioning">d8a30dbb97740610433db466f053af8a</sys_scope><sys_update_name>sys_dictionary_x_1318369_boom_pro_boom_order_u_priority</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-18 09:43:33</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1510545555</payload_hash>
+        <record_name>Boom Order.Priority</record_name>
+        <reverted_from/>
+        <source>20a30dbb97740610433db466f053af8f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 09:43:33</sys_created_on>
+        <sys_id>bf840a8597818a10433db466f053afc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e50f1e4160000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 09:43:33</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>f3840a85e4818a10ed64cc16c6238fc0</update_guid>
+        <update_guid_history>f3840a85e4818a10ed64cc16c6238fc0:-1510545555</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 10:38:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>1f5b95a263824d7d91ff8c63cda77029</sys_id>
+        <sys_metadata>ff840a8597818a10433db466f053afad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Priority</sys_name>
+        <sys_package display_value="Boom Provisioning" source="x_1318369_boom_pro">d8a30dbb97740610433db466f053af8a</sys_package>
+        <sys_parent display_value="Boom Order">8200d5bb97b40610433db466f053afd5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Boom Provisioning">d8a30dbb97740610433db466f053af8a</sys_scope>
+        <sys_scope_delete display_value="">992964cf64e34dfcb2bcdfb4f2aa6de4</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1318369_boom_pro_boom_order_u_priority</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1318369_boom_pro_boom_order_u_priority">bf840a8597818a10433db466f053afc0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 10:38:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

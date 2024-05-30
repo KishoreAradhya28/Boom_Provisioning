@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Boom_Provisioning_Agents</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-14 10:21:32</sys_created_on>
+        <sys_id>45e6657797380610433db466f053afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Boom Provisioning Agents</sys_name>
+        <sys_package display_value="Boom Provisioning" source="x_1318369_boom_pro">d8a30dbb97740610433db466f053af8a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Boom Provisioning">d8a30dbb97740610433db466f053af8a</sys_scope>
+        <sys_update_name>sys_ui_view_45e6657797380610433db466f053afe8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-14 10:21:32</sys_updated_on>
+        <title>Boom Provisioning Agents</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

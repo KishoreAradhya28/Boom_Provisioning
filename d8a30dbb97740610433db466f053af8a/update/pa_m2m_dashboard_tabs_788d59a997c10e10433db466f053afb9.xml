@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="BoomDashboard">348d15a997c10e10433db466f053afce</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 20:09:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>788d59a997c10e10433db466f053afb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>348d15a997c10e10433db466f053afce</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Boom Provisioning" source="x_1318369_boom_pro">d8a30dbb97740610433db466f053af8a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Boom Provisioning">d8a30dbb97740610433db466f053af8a</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_788d59a997c10e10433db466f053afb9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 20:09:55</sys_updated_on>
+        <tab display_value="Boom Dashboard - New Tab">f48d59a997c10e10433db466f053afb7</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

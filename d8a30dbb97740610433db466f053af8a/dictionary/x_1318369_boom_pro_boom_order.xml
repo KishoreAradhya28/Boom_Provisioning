@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="8200d5bb97b40610433db466f053afd5" extends="task" label="Boom Order" max_length="40" name="x_1318369_boom_pro_boom_order" type="collection">
+        <element attributes="encode_utf8=false" label="Requested for" max_length="32" name="requestedfor" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Order Type" mandatory="true" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Product" sequence="0" value="product"/>
+                <element inactive_on_update="false" label="Service" sequence="1" value="service"/>
+            </choice>
+        </element>
+    </element>
+</database>

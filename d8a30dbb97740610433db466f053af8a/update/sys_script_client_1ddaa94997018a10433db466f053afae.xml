@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Setting priority high if the order type is "Product", else if order type is "Service" then priority Critical.</description>
+        <field>u_choice_1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Priority</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (newValue == '') {
+        return;
+    }
+    var priority = g_form.getValue('priority');
+    g_form.clearOptions('priority');
+    if (newValue == 'product') {
+		g_form.addOption('priority', 2 ,'High');
+    }
+	if (newValue == 'service') {
+		g_form.addOption('priority', 1 ,'Critical');
+    }
+	if (isLoading && !g_form.isNewRecord()) {
+        g_form.setValue('priority', priority);
+    }
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 08:11:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ddaa94997018a10433db466f053afae</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Set Priority</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Boom Provisioning" source="x_1318369_boom_pro">d8a30dbb97740610433db466f053af8a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Boom Provisioning">d8a30dbb97740610433db466f053af8a</sys_scope>
+        <sys_update_name>sys_script_client_1ddaa94997018a10433db466f053afae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 10:51:40</sys_updated_on>
+        <table>x_1318369_boom_pro_boom_order</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
